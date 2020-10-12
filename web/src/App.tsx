@@ -1,10 +1,14 @@
 import React from 'react';
 
+// JSX - Java Script XML (coloca HTML dentro do JS)
+
+import './styles/global.css';
+
+import Routes from './routes'
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+   <Routes />
   );
 }
 
