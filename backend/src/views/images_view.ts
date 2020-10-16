@@ -4,7 +4,7 @@ export default {
     render(image: Image) {
         return {
             id: image.id,
-            url: `http://localhost:3333/uploads/${image.path}`,
+            url: `http://27f6b8f09516.ngrok.io/uploads/${image.path}`,
         };
     },
 
